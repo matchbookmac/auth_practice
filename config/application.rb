@@ -21,6 +21,7 @@ module AuthPractice
     config.generators do |g|
       g.template_engine  :erb
       g.test_framework   :rspec,
+        feature_specs:    true,
         request_specs:    false,
         view_specs:       false,
         helper_specs:     false,
